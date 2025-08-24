@@ -51,7 +51,7 @@ O sistema é composto por diversos **componentes reutilizáveis** que representa
 
 ## 💻 Repositório do Backend
 
-[https://github.com/gabrielkazak/Gameboxd---Backend](https://github.com/gabrielkazak/NasQuadras---Spring)
+[https://github.com/gabrielkazak/NasQuadras---Spring]
 
 ## 🖼️ Imagens do Site
 
