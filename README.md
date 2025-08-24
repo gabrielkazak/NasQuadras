@@ -1,12 +1,67 @@
-# React + Vite
+# 🏀 Projeto React - Nas Quadras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto tem como ideia central servir como uma **plataforma de informações sobre jogadores e equipes de basquete da NBA**, consumindo dados de APIs para mostrar todos os jogadores e times da liga. O projeto infelizmente não conta com notícias em tempo real, por falta de API gratuita e atualizada para tal fim.
+## 🛠 Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+- [React]  
+- [Vite]  
+- [Tailwind]  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo
 
-## Expanding the ESLint configuration
+Demonstrar como construir uma aplicação **client-side** moderna com React, consumindo dados de APIs de
+basquete e exibindo essas informações de forma interativa e responsiva, além de permitir que os usuários salvem suas equipes e jogadores favoritos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📄 Descrição do Projeto
+
+O sistema é composto por diversos **componentes reutilizáveis** que representam:
+
+- Grid de jogadores e equipes;  
+- PlayerCards e TeamCards;  
+- Páginas focadas em jogadores, times e elencos;  
+- Funcionalidades de favoritos e filtros interativos; 
+
+## 📁 Organização de Pastas (Estrutura Geral)
+
+- `src/`
+  - `Components/`
+    - `BestPlayers/` → Organiza a amostragem dos 100 melhores jogadores da liga
+    - `Header/` → Cabeçalho personalizado
+    - `Home/` → Página inicial da aplicação
+    - `Login/` → Página completa de login
+    - `PlayerCard/` → Componente exclusivo de cada jogador
+    - `Profile/` → Página de perfil do usuário com preferências de times e jogadores
+    - `Register/` → Página de registro
+    - `Roster/` → Página de criação e gerenciamento dos elencos do usuário
+    - `TeamSelector/` → Seletor de times a ser usado no Profile
+  - `App.jsx` → Componente principal que orquestra os outros componentes
+  - `main.jsx` → Ponto de entrada da aplicação React
+- `public/` → Contém o `index.html` e ícones públicos
+
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/gabrielkazak/NasQuadras]
+   cd NasQuadras
+   npm install
+   npm run dev
+   acesse no navegador localhost:5173
+
+## 💻 Repositório do Backend
+
+[https://github.com/gabrielkazak/Gameboxd---Backend](https://github.com/gabrielkazak/NasQuadras---Spring)
+
+## 🖼️ Imagens do Site
+
+![Dashboard](./readmeImages/dashboard.png)
+
+Essa é a página que aparece ao clicar em um jogo específico:
+
+![GamePage](./readmeImages/gamePage.png)
+
+## 👤 Autor
+
+    Gabriel – Estudante de Informática
+    Projeto desenvolvido como prática de utilização de React.
