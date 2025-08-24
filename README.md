@@ -55,11 +55,13 @@ O sistema é composto por diversos **componentes reutilizáveis** que representa
 
 ## 🖼️ Imagens do Site
 
-![Dashboard](./readmeImages/dashboard.png)
+![Dashboard](./src/assets/dashboard.png)
 
-Essa é a página que aparece ao clicar em um jogo específico:
+![100 Melhores](./src/assets/hundredBest.png)
 
-![GamePage](./readmeImages/gamePage.png)
+![Criador de Elencos](./src/assets/rosters.png)
+
+![Registro](./src/assets/register.png)
 
 ## 👤 Autor
 
